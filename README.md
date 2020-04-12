@@ -99,7 +99,7 @@ Rviz
   Records visited vectors to plot
 
 ## Publisher Node 
-   publishes the /cmd_vel node of the turtle bot which acts as the listener 
+   publishes the `/cmd_vel` node of the turtle bot which acts as the listener 
   
   
  
