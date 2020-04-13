@@ -9,6 +9,9 @@ Libraries required
   turtlebot_gazebo
   ros-kinetic
 
+To run script
+  roslaunch project3_gazebo phase4.launch
+  
 Info
   Code uses a python script to find the optimal path of a robot in a fixed map using A* searching algorithm.
   The robot's path is demonstrated in gazebo.
@@ -22,6 +25,21 @@ Info
     Goal Y Coord    Goal y coordinate
     rpm1            A wheel speed in RPM
     rpm2            Another wheel speed in RPM
+
+  !!! BEFORE RUNNING SCRIPT, START X,Y,THETA MUST BE DEFINED IN ANOTHER FILE AS WELL !!!
+    Open file catkin_ws1/src/project3_gazebo/launch/phase4.launch
+    Go to line 22, where x y and Y are defined
+    Change x to start coord
+    Change y to start coord
+    Change Y to start theta IN RADIANS
+    Example:
+
+      args="-x 4 -y 2 -Y 0 -unpause -urdf -param robot_description -model mobile_base"/>
+
+      This code will start the robot at
+        X = 4
+        Y = 2
+        Theta = 0
 
   Code uses the two rpm values to generate 8 possible actions for the robot:
     [0,rpm1]
