@@ -1,0 +1,8 @@
+prefix=/home/usb/catkin_ws1/install
+
+Name: project3
+Description: Description of project3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

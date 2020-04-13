@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/usb/catkin_ws1/install/setup.sh

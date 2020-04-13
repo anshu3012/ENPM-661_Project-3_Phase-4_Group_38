@@ -1,0 +1,8 @@
+prefix=/home/usb/catkin_ws1/install
+
+Name: project3_gazebo
+Description: Description of project3_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
